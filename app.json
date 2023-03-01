@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "lenglish_mobile",
+    "name": "LEnglish",
     "slug": "lenglish_mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/english.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/english.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ivanm556.lenglish_mobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "719de4c0-d24e-4137-87e0-d37ff3d64815"
+      }
     }
   }
 }
